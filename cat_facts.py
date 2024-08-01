@@ -17,7 +17,7 @@ def get_cat_fact():
                 break
             else:
                 print(fact_text)
-                print(" Length:" + str(fact_length))
+               # print(" Length:" + str(fact_length))
         else:
             print(f"Error: Unable to fetch data (status code: {response.status_code})")
 
